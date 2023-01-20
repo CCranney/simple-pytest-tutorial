@@ -29,6 +29,10 @@ Or a specific function in a file, indicate with double colons:
 
 `pytest test_shopping_cart.py::test_when_item_added_then_cart_contains_item`
 
+Alternatively, you can test a specific function using the `-k` argument:
+
+`pytest test_shopping_cart.py -k test_when_item_added_then_cart_contains_item`
+
 ## Testing A Specific Raised Error
 
 Normally, your functions pass or fail depending on a simple `assert` statement. However, sometimes you want to assert that a specific error is thrown. In that case, you can encapsulate the code that will throw the expected error in a `with pytest.raises(<Error Type>):`
