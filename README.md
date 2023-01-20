@@ -7,10 +7,6 @@ See https://www.youtube.com/watch?v=YbpKMIUjvK8
 
 I'm following the tutorial in the above YouTube video and am writing directions here for future use.
 
-Documentation:
-(PyTest)[https://docs.pytest.org/en/7.2.x/]
-(Mock)[https://docs.python.org/3/library/unittest.mock.html]
-
 ## Installation
 
 Pretty straightforward, but make sure you have pytest available: `pip install pytest`
